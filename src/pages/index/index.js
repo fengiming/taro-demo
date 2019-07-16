@@ -23,9 +23,7 @@ class Index extends Component {
     navigationBarTitleText: "首页"
   };
 
-  componentWillReceiveProps(nextProps) {
-    //console.log(this.props, nextProps);
-  }
+  componentWillReceiveProps() {}
 
   componentWillUnmount() {}
 
@@ -36,14 +34,14 @@ class Index extends Component {
   render() {
     const { increment, decrement, incrementAsync, num } = this.props;
     return (
-      <View className="index">
-        <Button className="add_btn" onClick={increment}>
+      <View className='index'>
+        <Button className='add_btn' onClick={increment}>
           +
         </Button>
-        <Button className="dec_btn" onClick={decrement}>
+        <Button className='dec_btn' onClick={decrement}>
           -
         </Button>
-        <Button className="dec_btn" onClick={incrementAsync}>
+        <Button className='dec_btn' onClick={incrementAsync}>
           async
         </Button>
         <View>
