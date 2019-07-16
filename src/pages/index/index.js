@@ -7,7 +7,7 @@ import "./index.scss";
 const mapState = state => ({
   num: state.count.num
 });
-
+// 注入store
 const mapDispatch = dispatch => ({
   increment: () => dispatch.count.increment(1),
   decrement: () => dispatch.count.decrement(1),
