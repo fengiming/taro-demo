@@ -1,0 +1,12 @@
+{
+  "extends": ["stylelint-prettier/recommended"],
+  "rules": {
+    "block-no-empty": null,
+    "color-no-invalid-hex": true,
+    "comment-empty-line-before": null,
+    "declaration-colon-space-after": "always",
+    "indentation": null,
+    "max-empty-lines": 2,
+    "unit-whitelist": ["em", "rem", "%", "s", "rpx", "px"]
+  }
+}

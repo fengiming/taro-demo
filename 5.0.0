@@ -1,0 +1,4 @@
++ eslint@4.19.1
+updated 1 package and audited 16512 packages in 35.167s
+found 3 high severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
